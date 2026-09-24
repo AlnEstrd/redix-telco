@@ -29,7 +29,7 @@ function footer() {
     <div>
       <p class="footer-brand">${esc(b.tradeName)}</p>
       <address>
-        <p><strong>Razón social:</strong> ${esc(b.legalName)}</p>
+        <p><strong>Nombre o razón social:</strong> ${esc(b.legalName)}</p>
         <p><strong>RFC:</strong> ${esc(b.rfc)}</p>
         <p><strong>Domicilio:</strong> ${esc(b.address)}</p>
         <p><strong>Teléfono / WhatsApp:</strong> <a href="tel:${b.phoneE164}">${esc(b.phoneDisplay)}</a></p>
