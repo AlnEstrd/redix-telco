@@ -23,6 +23,6 @@ export const business = {
   phoneE164: "+522298962649",
   whatsappUrl: "https://wa.me/522298962649",
   email: "contacto@redixtelecomunicaciones.lat",
-  hours: "[Lun–Vie 9:00–18:00, Sáb …]",
+  hours: "Lunes a viernes, 9:00 a 18:00 h",
   coverageArea: "[ZONA DE COBERTURA, p. ej. municipios o ciudades donde atienden]",
 };
