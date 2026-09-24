@@ -1,8 +1,19 @@
-name: sample-react
+# Especificación de DigitalOcean App Platform (referencia).
+# Coincide con la configuración actual: servicio Node que ejecuta `npm run build`
+# y sirve _static/ con `npm start`. Ver README.md para la alternativa "Static Site".
+name: redix-telco
 services:
-- environment_slug: node-js
+- name: web
+  environment_slug: node-js
   github:
+    repo: AlnEstrd/redix-telco
     branch: main
     deploy_on_push: true
-    repo: digitalocean/sample-react
-  name: sample-react
+  build_command: npm run build
+  run_command: npm start
+  http_port: 8080
+  instance_count: 1
+  instance_size_slug: apps-s-1vcpu-0.5gb
+domains:
+- domain: redixtelecomunicaciones.lat
+  type: PRIMARY
