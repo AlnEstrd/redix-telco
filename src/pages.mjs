@@ -63,7 +63,7 @@ const contacto = {
   <h2>Datos del responsable</h2>
   <ul class="contact-list">
     <li><strong>Nombre comercial:</strong> ${esc(b.tradeName)}</li>
-    <li><strong>Razón social:</strong> ${esc(b.legalName)}</li>
+    <li><strong>Nombre o razón social:</strong> ${esc(b.legalName)}</li>
     <li><strong>RFC:</strong> ${esc(b.rfc)}</li>
   </ul>
 </section>
