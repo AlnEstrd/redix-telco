@@ -13,6 +13,6 @@
     "verify:local": "node scripts/verify.mjs http://localhost:8080"
   },
   "dependencies": {
-    "serve": "^14.2.4"
+    "serve": "^14.2.7"
   }
 }
